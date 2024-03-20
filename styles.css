@@ -1,7 +1,49 @@
-body{
-    background-color: cadetblue;
-}
+
 
 .fig{
     background-color: rgba(255, 0, 0, 0.5);
+}
+.one{
+    background-color: rgba(255, 0, 0, 0.2);
+    padding: 20px;
+    border: 20px solid violet;
+    margin: 60px;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    
+
+    
+}
+.two{
+    background-color: rgb(149, 204, 60);
+
+}
+
+.container{
+    border: 5px solid green;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.item-1{
+    border: 5px solid red;
+    width: 120px;
+    height: 100%;
+}
+.item-2{
+    border: 5px solid pink;
+    width: 120px;
+    height: 100%;
+    flex: 1;
+    
+}
+.item-3{
+    border: 5px solid yellow;
+    width: 120px;
+    height: 100%;
+    
 }
