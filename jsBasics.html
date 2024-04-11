@@ -7,8 +7,14 @@
     
 </head>
 <body>
-    <button id="btn">Press here</button>
-    <p id="change">Change me</p>
-    <script src="jsBasics.js"></script>
+    <button>Press here</button>
+    <p>Change me</p>
+    <script>
+        const btn = document.querySelector('button');
+        const para = document.querySelector('p');
+        btn.addEventListener("click", () => {
+            para.textContent = "Changed";
+        })
+    </script>
 </body>
 </html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" class="inp" >
+    <p></p>
+    <script>
+        const inp = document.querySelector('input');
+        const para = document.querySelector('p');
+        const val = parseInt(inp.value);
+
+        inp.addEventListener("change",() => {
+           
+            if(val%3==0){
+                para.textContent("Fizz");
+            }
+            else if(val%3==0 && val%5==0){
+                para.textContent("FizzBuzz");
+            }
+            else if(val%5==0){
+                para.textContent("Buzz");
+            }
+            else{
+                for(let i=1;i<val;i++){
+                    para.textContent("See the Console");
+                    console.log(i);
+
+                }
+            }
+        })
+
+        
+
+        
+    </script>
+</body>
+</html>
