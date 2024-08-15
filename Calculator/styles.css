@@ -1,0 +1,25 @@
+.app{
+    width: 500px;
+    height: 80vh;
+    
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.app button{
+    color: white;
+    background-color: grey;
+    width: 70px;height: 70px;
+    font-size: x-large;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 15px;
+    border: none;
+
+}
+.app button:hover{
+    opacity: 80%;
+}
+.app button:active{
+    opacity: 50%;
+}
