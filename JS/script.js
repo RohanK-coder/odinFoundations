@@ -32,3 +32,18 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+const discordNames = [];
+function createUser(name){
+    const discordName = "@" + name;
+    
+    return {name,discordName};
+}
+
+
+const user = (name) => {
+    this.name = name;
+    this.discord = "@" + name;
+    return ({name,discord});
+}
+console.log(user("rohan"))
