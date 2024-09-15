@@ -14,3 +14,5 @@ const calculator = (function () {
 })();
 
 console.log(calculator.add(2,3));
+
+export const dominos = "dumb";
