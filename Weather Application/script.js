@@ -17,7 +17,7 @@ btn.addEventListener("click", async (e) => {
             const data = await response.json();
             console.log(data);
             console.log(`In ${data.resolvedAddress} it is ${data.currentConditions.conditions}`);
-            paragraph.textContent = `In ${data.resolvedAddress} it is ${data.currentConditions.conditions}`; 
+            paragraph.textContent = `Hi, In ${data.resolvedAddress} it is ${data.currentConditions.conditions}`; 
         }, 2000);
     } catch (error) {
         console.log('There was a problem with the fetch operation:', error);
