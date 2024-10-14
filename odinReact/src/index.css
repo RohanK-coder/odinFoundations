@@ -1,0 +1,27 @@
+.main{
+    padding: 20px;
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(to right,rgb(97, 150, 97),rgb(139, 176, 139)
+    );
+}
+
+.items{
+    border: 2px solid;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items div{
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
