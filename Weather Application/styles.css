@@ -26,7 +26,11 @@ padding: 0px;
 
 .container{
     
+<<<<<<< HEAD
     max-width: 100%;
+=======
+    width: 100%;
+>>>>>>> 9ce5fe71b2b271568d2802cdb407399f15e3810a
     height: 90vh;
     display: flex;
     justify-content: center;
