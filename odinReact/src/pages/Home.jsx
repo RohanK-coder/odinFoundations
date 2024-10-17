@@ -5,6 +5,8 @@ import Props from '../components/Props'
 import States from '../components/States'
 import Clock from '../components/Clock'
 import MemoryGame from '../components/MemoryGame'
+import ControlledComponents from '../components/ControlledComponents'
+import ControlledForm from '../components/ControlledForm'
 export default function Home() {
   return (
     <>
@@ -14,6 +16,8 @@ export default function Home() {
     <States/>
     
     <MemoryGame/>
+    <ControlledComponents/>
+    <ControlledForm/>
     </>
       
     
