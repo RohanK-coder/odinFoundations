@@ -8,7 +8,13 @@ import MemoryGame from '../components/MemoryGame'
 import ControlledComponents from '../components/ControlledComponents'
 import ControlledForm from '../components/ControlledForm'
 import Feedbackform from '../components/Feedbackform'
+import Context from '../components/Context'
+import ContextUseCase from '../components/ContextUseCase'
+import { LoginContexts } from '../contexts/LoginContexts'
+import { useState } from 'react'
 export default function Home() {
+  const [username,setUsername] = useState("");
+  const [showName,setShowName] = useState(false);
   return (
     <>
     <Animals/>
@@ -20,6 +26,8 @@ export default function Home() {
     <ControlledComponents/>
     <ControlledForm/>
     <Feedbackform/>
+    <Context/>
+    <ContextUseCase/>
     </>
       
     
