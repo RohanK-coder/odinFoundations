@@ -12,8 +12,8 @@ export default function Login() {
         //console.log(username);
     }
   return (
-    <div>
-      <h2>Login</h2>
+    <div className='login-form'>
+      <h2>Login Form</h2>
       <input 
         type="text" 
         onChange={(e) => {
@@ -31,7 +31,7 @@ export default function Login() {
          placeholder='password'
         />
 
-        <button type='submit' onClick={handleSubmit}>Submit</button>
+        <button type='submit' onClick={handleSubmit} disabled={!username}>Submit</button>
 
     </div>
   )

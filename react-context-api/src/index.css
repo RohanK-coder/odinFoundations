@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.login-form input{
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+.login-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-dark{
+    border: 2px solid red;
+    width: 550px;
+    height: 550px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.card-light{
+    border: 2px solid red;
+    width: 550px;
+    height: 550px;
+    background-color: beige;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
